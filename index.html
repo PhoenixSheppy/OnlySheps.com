@@ -5,9 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="For the bestest pups around...">
     <title>OnlySheps</title>
+
+    <!--FONTS-->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@0;1&display=swap" rel="stylesheet">
   
-    <!-- Bootstrap core CSS -->
-<link href="./css/bootstrap.min.css" rel="stylesheet">
+    <!--CSS-->
+
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/custom.css" rel="stylesheet">
 
     <style>
       .bd-placeholder-img {
@@ -31,59 +39,71 @@
     
 <main>
   <div class="container py-4">
-    <header class="pb-3 mb-4 border-bottom">
-      <a class="d-inline-flex align-items-center text-dark text-decoration-none">
-        <img src="img/icon.png" class="me-2" style="height:32px;"/>
-        <span class="fs-4 me-2">OnlySheps</span>
-        <span class="fs-4 me-2">|</span>
-        <a class="d-inline" href="#"><span class="fs-4">About</span></a>
-      </a>
-    </header>
+
+    <!--HEADER-->
+
+    <div class="container">
+      <header class="d-flex flex-wrap justify-content-between py-3 mb-4 border-bottom">
+        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+          <img class="bi me-2" style="max-width:40px; max-height:40px;" src="./img/icon.png">
+          <span class="fs-4">OnlySheps</span>
+        </a>
+    
+        <ul class="nav nav-pills">
+          <li class="nav-item"><a href="#" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link annoying-a">About</a></li>
+        </ul>
+      </header>
+    </div>
+
+    <!--JUMBOTRON-->
 
     <div class="p-5 mb-4 bg-light rounded-3">
       <div class="container-fluid py-5">
         <h1 class="display-5 fw-bold">OnlySheps</h1>
-        <p class="col-md-8 fs-4">Where the bestest boys and girls come to show off their strut!</p>
+        <p class="col-md-8 fs-4"><em>Where the bestest boys and girls come to show off their strut!</em></p>
         <button class="btn btn-primary btn-lg" type="button">Sign Up Today!</button>
       </div>
     </div>
 
+    <!--TIERS-->
+
     <div class="row align-items-md-stretch">
       <div class="col-md-6">
-        <div class="h-100 p-5 text-white bg-dark rounded-3">
-          <h2>Kibble Tier</h2>
-          <p>Toss your favorite pup a bone! Show them you think they're the cutest dog on the block!</p>
-          <button class="btn btn-outline-light" type="button">$10 monthly</button>
+        <div id="kibble" class="h-100 p-5 text-white rounded-3">
+            <h2>Kibble Tier</h2>
+            <p>Toss your favorite pup a bone! Show them you think they're the cutest dog on the block!</p>
+            <button class="btn btn-outline-light" type="button">$10 monthly</button>
         </div>
       </div>
 
-      <div class="col-md-6">
-        <div class="h-100 p-5 bg-light border rounded-3">
+      <div class="col-md-6 mt-4 mt-lg-0">
+        <div id="chewtoy" class="h-100 p-5 text-white border rounded-3">
           <h2>Chewtoy Tier</h2>
           <p>Donate your favorite pup enough money to buy them a new toy, or even some of that expensive GMO-free fancy kibble!</p>
-          <button class="btn btn-outline-secondary" type="button">$25 monthly</button>
+          <button class="btn btn-outline-light" type="button">$25 monthly</button>
         </div>
       </div>
 
       <div class="col-md-6 mt-4">
-        <div class="h-100 p-5 bg-light border rounded-3">
+        <div id="bed" class="h-100 p-5 text-white border rounded-3">
           <h2>Fancy Bed Tier</h2>
           <p>Give your favorite pup enough money to buy them a fancy dog bed, or a plethora of treats!</p>
-          <button class="btn btn-outline-secondary" type="button">$50 monthly</button>
+          <button class="btn btn-outline-light" type="button">$50 monthly</button>
         </div>
       </div>
 
       <div class="col-md-6 mt-4">
-        <div class="h-100 p-5 bg-light border rounded-3">
+        <div id="soul" class="h-100 p-5 text-white border rounded-3">
           <h2>Soul Tier</h2>
           <p>Give your most favorite pup your soul! Devote the rest of your life to watching them on a screen, never getting to know them.</p>
-          <button class="btn btn-outline-secondary" type="button">Your Soul</button>
+          <button class="btn btn-outline-light" type="button">Your Soul</button>
         </div>
       </div>
 
     </div>
 
-    
+    <!--FOOTER-->
     
     <footer class="pt-3 mt-4 text-muted border-top">
       &copy;OnlySheps, 2021
@@ -91,7 +111,7 @@
   </div>
 </main>
 
-
+  <script src="./js/bootstrap.bundle.min.js"></script>
     
   </body>
 </html>

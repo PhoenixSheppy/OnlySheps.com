@@ -1,0 +1,32 @@
+.p, button, li, h1, h2, h3, h4, h5, footer {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.active, .btn-primary {
+    background-color:#33416a !important;
+    border-color:#33416a !important;
+}
+
+.annoying-a {
+    color:#33416a !important;
+}
+
+#kibble {
+    background: linear-gradient(to right,#000000ba, #000000cc), url(../img/kibble.jpg) no-repeat center center;
+    background-size: 100%;
+}
+
+#chewtoy {
+    background: linear-gradient(to right,#000000ba, #000000cc), url(../img/chewtoy.jpg) no-repeat center center;
+    background-size: 100%;
+}
+
+#bed {
+    background: linear-gradient(to right,#000000ba, #000000cc), url(../img/bed.jpg) no-repeat center center;
+    background-size: 100%;
+}
+
+#soul {
+    background: linear-gradient(to right,#000000ba, #000000cc), url(../img/soul.jpg) no-repeat center center;
+    background-size: 100%;
+}
