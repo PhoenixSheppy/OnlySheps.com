@@ -11,6 +11,10 @@
     color:#33416a !important;
 }
 
+.title-color {
+    color:#33416a !important;
+}
+
 #kibble {
     background: linear-gradient(to right,#000000ba, #000000cc), url(../img/kibble.jpg) no-repeat center center;
     background-size: 100%;
